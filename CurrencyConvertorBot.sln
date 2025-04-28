@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertorBot", "CurrencyConvertorBot\CurrencyConvertorBot.csproj", "{6B30963C-F172-4B1E-9ADD-78854EDEDF47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UahConvertor", "UahConvertor\UahConvertor.csproj", "{4F5AEA3C-B567-41F0-B32C-F6278AC339B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B30963C-F172-4B1E-9ADD-78854EDEDF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B30963C-F172-4B1E-9ADD-78854EDEDF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B30963C-F172-4B1E-9ADD-78854EDEDF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B30963C-F172-4B1E-9ADD-78854EDEDF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5AEA3C-B567-41F0-B32C-F6278AC339B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5AEA3C-B567-41F0-B32C-F6278AC339B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5AEA3C-B567-41F0-B32C-F6278AC339B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5AEA3C-B567-41F0-B32C-F6278AC339B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
