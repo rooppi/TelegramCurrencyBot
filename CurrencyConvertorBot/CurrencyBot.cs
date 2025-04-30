@@ -75,18 +75,21 @@ namespace CurrencyConvertorBot
               if (data == "USD")
               {
                  var value = await ConvertToUah("USD");
-                 await _botClient.SendMessage(chatId: chatId, text: $"Курс USD к UAH:" + value.ToString("0.00",CultureInfo.InvariantCulture));
+                 await _botClient.SendMessage(chatId: chatId, 
+                    text: $"Курс USD к UAH:" + value.ToString("0.00",CultureInfo.InvariantCulture));
               }
             
               else if (data == "PLN")
               {
                  var value = await ConvertToUah("PLN");
-                 await _botClient.SendMessage(chatId: chatId, text: $"Курс PLN к UAH:" + value.ToString("0.00",CultureInfo.InvariantCulture));
+                 await _botClient.SendMessage(chatId: chatId, 
+                    text: $"Курс PLN к UAH:" + value.ToString("0.00",CultureInfo.InvariantCulture));
               }
               else if (data == "EUR")
               {
                  var value = await ConvertToUah("EUR");
-                 await _botClient.SendMessage(chatId: chatId, text: $"Курс EUR к UAH:" + value.ToString("0.00",CultureInfo.InvariantCulture));
+                 await _botClient.SendMessage(chatId: chatId, 
+                    text: $"Курс EUR к UAH:" + value.ToString("0.00",CultureInfo.InvariantCulture));
               }
            }
 
